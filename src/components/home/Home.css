@@ -1,0 +1,78 @@
+.box-con{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0.6;background-color: rgb(0, 0, 0); */
+}
+.box-1{
+    display: flex;
+    /* border: 1px solid red; */
+}
+.hd-pizza{
+    color: white;
+    font-size: 16rem;
+    margin: 0;
+    text-align: left !important;
+    letter-spacing: 15px;
+    /* height: 200px; */
+}
+.box-2{
+    display: flex;
+    margin-top: -13px;
+}
+.contact-circle{
+    width: 150px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    /* content: ""; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 140px;
+    height: 140px; */
+    /* -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    border-radius: 50%;
+    -webkit-animation: idleAnim 3.4s ease-out infinite;
+    animation: idleAnim 3.4s ease-out infinite; */
+}
+.circle{
+    flex: 1;
+    /* width: 400px; */
+    display: flex;
+    align-items: end;
+}
+.content{
+    text-align: left;
+    flex: 2;
+    color: white;
+    
+}
+.btx-con{
+    width: 500px;
+}
+.side-text{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 32px;
+}
+.side-text span{
+    color: #bf8041;
+}
+.p-text{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}

@@ -1,0 +1,65 @@
+.sec-two{
+    background-color: #414142;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+.sec-two-part01{
+    width: 75%;
+    text-align: left;
+}
+.sec-two-p{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 3.8rem;
+    line-height: 1.1;
+    color: white;
+}
+
+.sec-two-part02{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px 50px;
+    width: 75%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6c6b6b;
+}
+.sec-two-img-part{
+    max-width: 100px;
+    max-height: 100px;
+    flex: 1;
+}
+.sec-two-img-part img{
+    width: 100%;
+    height: 100%;
+    /* animation: 15s linear infinite running rotate360; */
+    -webkit-animation:spin 15s linear infinite;
+    -moz-animation:spin 15s linear infinite;
+    animation:spin 15s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+.sec-two-text-part{
+    flex: 2;
+    text-align: left;
+    margin-left: 100px;
+    color: white;
+}
+.sec-two-text-part-p{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.9rem;
+    line-height: 1.2;
+}

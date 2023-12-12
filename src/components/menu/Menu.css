@@ -1,0 +1,30 @@
+.menu-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    /* height: 100vh; */
+    padding: 40px 0 40px 0;
+}
+.menu-box-hd{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 3.8rem;
+    line-height: 1.1;
+    color: #eee;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    border-bottom: 1px solid #eee;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.9rem;
+    line-height: 1.2;
+    padding-bottom: 1.5rem;
+    color: #eee;
+    padding-top: 3rem!important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
